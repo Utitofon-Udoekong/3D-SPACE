@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" contentidth=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" contente=edge">
+    <link rel="stylesheet" href="css/isoblock.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="logo">3D SPACE 
+        <a href="https://github.com/Moserah"><i class="fa fa-github"></i></a> 
+        <a href="https://www.linkedin.com/in/utitofonudoekong-7a57221b4"><i class="fa fa-linkedin"></i></a>
+    </div>
+    <h1 contenteditable="true">EDIT CONTENTS NOW</h1>
+    <div class="container">
+        <div class="card">            
+            <div class="content" contenteditable="true">
+                <!-- <textarea name="" id="" cols="10" rows="3"></textarea> -->
+            </div>
+        </div>
+        <div class="card">            
+            <div class="content" contenteditable="true"></div>
+        </div>
+        <div class="card">
+            <div class="content" contenteditable="true"></div>
+        </div>
+        <div class="card">
+            <div class="content" contenteditable="true"></div>
+        </div>
+        <div class="card">
+            <div class="content" contenteditable="true"></div>
+        </div>
+        <div class="card">
+            <div class="content" contenteditable="true"></div>
+        </div>
+    </div>
+    <div class="color">
+        <button class="colorSwitch">Change-color</button>
+        <button class="creator">Create Element</button>
+        <button>Reset</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+       $(function() {
+           $(".card").draggable();
+           $("h1").draggable(); 
+        })      
+    </script>
+</body>
+
+</html>
